@@ -50,6 +50,9 @@ dependencies {
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.material3)
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.0.0")
+    implementation(libs.androidx.lifecycle.viewmodel.android)
 }
 
 publishing {
